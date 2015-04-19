@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BiTree	bitree.h	/^}BiTree;$/;"	t	typeref:struct:Node
+DeleteQueue	stack.h	/^void DeleteQueue( Queue *q, BiTree **x )$/;"	f	signature:( Queue *q, BiTree **x )
+EnterQueue	stack.h	/^void EnterQueue( Queue *q, BiTree *x )$/;"	f	signature:( Queue *q, BiTree *x )
+FALSE	stack.h	10;"	d
+InOrder	bitree.h	/^void InOrder( BiTree *root );$/;"	p	signature:( BiTree *root )
+InOrder	creat.c	/^void InOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+Lchild	bitree.h	/^    struct Node *Lchild;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+LevelOrder	creat.c	/^void LevelOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+LinkQueue	stack.h	/^}LinkQueue;$/;"	t	typeref:struct:linkqueue
+Node	bitree.h	/^typedef struct Node$/;"	s
+Node::Lchild	bitree.h	/^    struct Node *Lchild;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+Node::Rchild	bitree.h	/^    struct Node *Rchild;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+Node::data	bitree.h	/^    char data;$/;"	m	struct:Node	access:public
+PostOrder	bitree.h	/^void PostOrder( BiTree *root );$/;"	p	signature:( BiTree *root )
+PostOrder	creat.c	/^void PostOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+PostTreeDepth	print.c	/^int PostTreeDepth( BiTree *root )$/;"	f	signature:( BiTree *root )
+PreOrder	bitree.h	/^void PreOrder( BiTree *root );$/;"	p	signature:( BiTree *root )
+PreOrder	creat.c	/^void PreOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+Queue	stack.h	/^}Queue;$/;"	t	typeref:struct:__anon1
+Rchild	bitree.h	/^    struct Node *Rchild;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+ReInOrder	bitree.h	/^void ReInOrder( BiTree *root );$/;"	p	signature:( BiTree *root )
+ReInOrder	creat.c	/^void ReInOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+RePostOrder	bitree.h	/^void RePostOrder( BiTree *root );$/;"	p	signature:( BiTree *root )
+RePostOrder	creat.c	/^void RePostOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+RePreOrder	bitree.h	/^void RePreOrder( BiTree *root );$/;"	p	signature:( BiTree *root )
+RePreOrder	creat.c	/^void RePreOrder( BiTree *root )$/;"	f	signature:( BiTree *root )
+Stack	stack.h	/^}Stack;$/;"	t	typeref:struct:linkstack
+TRUE	stack.h	9;"	d
+_BITREE_H_	bitree.h	12;"	d
+_STACK_H_	stack.h	2;"	d
+__anon1::front	stack.h	/^    LinkQueue *front;$/;"	m	struct:__anon1	access:public
+__anon1::rear	stack.h	/^    LinkQueue *rear;$/;"	m	struct:__anon1	access:public
+creat	bitree.h	/^void creat( BiTree **root );$/;"	p	signature:( BiTree **root )
+creat	creat.c	/^void creat( BiTree **root )$/;"	f	signature:( BiTree **root )
+data	bitree.h	/^    char data;$/;"	m	struct:Node	access:public
+data	stack.h	/^	BiTree *data;$/;"	m	struct:linkstack	access:public
+data	stack.h	/^    BiTree *data;$/;"	m	struct:linkqueue	access:public
+front	stack.h	/^    LinkQueue *front;$/;"	m	struct:__anon1	access:public
+get_top	stack.h	/^BiTree* get_top( Stack *top )$/;"	f	signature:( Stack *top )
+linkqueue	stack.h	/^typedef struct linkqueue$/;"	s
+linkqueue::data	stack.h	/^    BiTree *data;$/;"	m	struct:linkqueue	access:public
+linkqueue::next	stack.h	/^    struct linkqueue *next;$/;"	m	struct:linkqueue	typeref:struct:linkqueue::linkqueue	access:public
+linkstack	stack.h	/^typedef struct linkstack$/;"	s
+linkstack::data	stack.h	/^	BiTree *data;$/;"	m	struct:linkstack	access:public
+linkstack::next	stack.h	/^	struct linkstack *next;$/;"	m	struct:linkstack	typeref:struct:linkstack::linkstack	access:public
+main	creat.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+next	stack.h	/^	struct linkstack *next;$/;"	m	struct:linkstack	typeref:struct:linkstack::linkstack	access:public
+next	stack.h	/^    struct linkqueue *next;$/;"	m	struct:linkqueue	typeref:struct:linkqueue::linkqueue	access:public
+pop	stack.h	/^int pop( Stack *top, BiTree **tem )$/;"	f	signature:( Stack *top, BiTree **tem )
+print	print.c	/^void print( BiTree *root , int n )$/;"	f	signature:( BiTree *root , int n )
+push	stack.h	/^int push( Stack *top, BiTree *tem )$/;"	f	signature:( Stack *top, BiTree *tem )
+queue_creat	stack.h	/^Queue *queue_creat()$/;"	f	signature:()
+rear	stack.h	/^    LinkQueue *rear;$/;"	m	struct:__anon1	access:public
+stack_creat	stack.h	/^Stack *stack_creat()$/;"	f	signature:()

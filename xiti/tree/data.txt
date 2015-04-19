@@ -1,0 +1,6 @@
+depth:4
+ABD#G###CE#H##F##
+depth:5
+ABDEF#######
+depth:6
+ABDFHI####G##E##C#J#K#L#M##
