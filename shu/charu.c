@@ -10,13 +10,13 @@
 
 void InsertSort(int a[])
 {
-    int i,j;
-    for(i = 2;i < SIZE; i++ ){
+    int i,j,temp;
+    for(i = 1;i < SIZE; i++ ){
         if(a[i] < a[i-1]){
-            a[0] = a[i];
-            for(j = i-1;a[0] < a[j]; j--)
+            temp = a[i];
+            for(j = i-1;temp < a[j] && j >= 0; j--)
                 a[j+1] = a[j];
-            a[j+1] = a[0];
+            a[j+1] = temp;
         }
     }
 }
@@ -26,7 +26,7 @@ int main()
     int a[SIZE] = {1,4,6,3,9,5},i;
     InsertSort(a);
     printf("插入排序后的顺序：");
-    for(i = 1;i < SIZE; i++)
+    for(i = 0;i < SIZE; i++)
         printf("%d ",a[i]);
     printf("\n");
 
